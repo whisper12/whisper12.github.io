@@ -51,16 +51,12 @@ $(document).ready(function() {
   });
 
   var BACKGROUNG_IMGS = [
-    '/assets/images/background-cover.JPG',
-    '/assets/images/background-cover2.JPG',
-    '/assets/images/background-cover3.JPG',
-    '/assets/images/background-cover4.JPG',
-    '/assets/images/background-cover5.JPG',
+    '/assets/images/background-cover.jpg',
+    '/assets/images/background-cover2.jpg',
+    '/assets/images/background-cover3.jpg',
+    '/assets/images/background-cover4.jpg',
+    '/assets/images/background-cover5.jpg',
   ];
   $('.panel-cover').css('background-image',`url(${BACKGROUNG_IMGS[Math.floor((Math.random()*BACKGROUNG_IMGS.length))]})`)
   
-
-  $.get('https://apier.youngam.cn/essay/one',function(res){
-    console.log(res)
-  })
 });
