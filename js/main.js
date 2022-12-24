@@ -51,7 +51,7 @@ $(document).ready(function() {
   });
 
   var BACKGROUNG_IMGS = [
-    '/assets/images/background-cover.JPG',
+    '/assets/images/background-cover.jpg',
     '/assets/images/background-cover2.JPG',
     '/assets/images/background-cover3.JPG',
     '/assets/images/background-cover4.JPG',
