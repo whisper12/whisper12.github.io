@@ -50,13 +50,15 @@ $(document).ready(function() {
     $('.btn-mobile-menu__icon').toggleClass('fa fa-list fa fa-angle-up animated fadeIn');
   });
 
+
+  const IMG_DOMAIN = 'https://img.zuccboy.top/blog/'
   var BACKGROUNG_IMGS = [
-    '/assets/images/background-cover.jpg',
-    '/assets/images/background-cover2.JPG',
-    '/assets/images/background-cover3.JPG',
-    '/assets/images/background-cover4.JPG',
-    '/assets/images/background-cover5.JPG',
+    'background-cover.jpg',
+    'background-cover2.JPG',
+    'background-cover3.JPG',
+    'background-cover4.JPG',
+    'background-cover5.JPG',
   ];
-  $('.panel-cover').css('background-image',`url(${BACKGROUNG_IMGS[Math.floor((Math.random()*BACKGROUNG_IMGS.length))]})`)
+  $('.panel-cover').css('background-image',`url(${IMG_DOMAIN}${BACKGROUNG_IMGS[Math.floor((Math.random()*BACKGROUNG_IMGS.length))]})`)
   
 });
